@@ -1,6 +1,7 @@
-import { getEmployees } from "./database.js"
+import { getEmployees, getOrders } from "./database.js"
 
 const employees = getEmployees()
+const orders = getOrders()
 
 export const Employees = () => {
     let html = "<ul>"
