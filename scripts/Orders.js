@@ -22,8 +22,8 @@ const findProduct = (order, allProducts) => {
 // Function whose responsibility is to find the employee for an order
 const findEmployee = (order, allEmployees) => {
     let orderEmployee = null
-
-    for (const employee in allEmployees) {
+// this function deals with matching emplyee id to the employee id of an order in array in database
+    for (const employee of allEmployees) {
         if (employee.id === order.employeeId) {
             orderEmployee = employee
         }

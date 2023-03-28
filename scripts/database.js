@@ -3,7 +3,7 @@
     This module contains all of the data, or state, for the
     application. It exports two functions that allow other
     modules to get copies of the state.
-
+//This is my information which is contained in an array.  
 */
 const database = {
     employees: [{

@@ -1,7 +1,10 @@
+
+//imported here for display - like wiring a switch to a fan.  connected so that in main it can be gathered for display in index
+
 import { Employees } from "./Employees.js"
 import { Orders } from "./Orders.js"
 import { Products } from "./Products.js"
-
+//this is what the event listener point the container 
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
